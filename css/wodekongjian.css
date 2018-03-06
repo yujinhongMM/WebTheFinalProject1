@@ -1,0 +1,233 @@
+*{margin: 0px;padding:0px;}
+body{ width: 100%; height:auto;font-size:62.5%;font-family:cursive, Arial,Helvetica, Tahoma, STXihei, "华文细黑", Heiti, "黑体", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif; width: 100%; }
+textarea { resize: none; }
+a, button, input, select, textarea { outline: 0; }
+a, button { cursor: pointer; }
+a { color: #666; text-decoration: none; }
+button { border: none;}
+.clear{clear:both;
+        height: 0;
+        line-height: 0;
+        font-size: 0;
+}
+.pagewrap{
+    width: 100%;
+    background: url(../img/1_2.jpg) no-repeat fixed;
+    background-size: cover;
+    height:auto;
+    min-width: 1000px;
+}
+.main{
+    width: 70%;
+    margin: 0 auto;
+    background: rgba(242, 247, 244, 0.74); 
+    min-width: 900px;
+    height:auto;
+}
+.top{
+    padding: 10px 0px 80px 0px;
+    width:100%;
+    min-width: 860px;
+    color: #0B8158;
+    font-size: 4em;
+    padding:20px;
+}
+
+.top a{
+    color: #0B8158;
+    font-size: 0.4em;
+}
+
+.daohanglan{
+    width:95%;
+    margin: 0 auto;
+    min-width: 817px;
+    height: 146px;
+    min-height:146px; 
+    overflow:hidden;
+}
+.imgborder{
+    width:15%;
+    float:left;
+}
+.imgborder img{
+    width:100%;
+    border:5px solid aquamarine;
+}
+.daohanglan_right{
+    width:78%;
+    float:left;
+    margin-left:3%;
+    height: 146px;
+    min-height:146px; 
+    font-size:1.6em;
+}
+.gexingqianming{
+    margin:10px 0px 10px 0px;
+}
+.gexingqianming input{
+    width:50%;
+    background:none;
+    border:0;
+}
+.daohanglan_xia{
+    width:100%;
+    height:40.88px;
+    margin-top:5%;
+    background: #0B8158;
+    overflow:hidden;    
+}
+.daohanglan_xia ul li{
+    list-style:none;
+    float: left;
+    width: 150px;
+    height:40.88px;
+    line-height:40.88px; 
+}
+.daohanglan_xia ul li a{
+    color:white;
+    font-size: 1em;
+    display: block;
+    text-align: center;
+    width: 150px;
+}
+.daohanglan_xia ul li a:hover{
+    color:aquamarine;
+    font-size: 1em;
+    background: #58A081;
+}
+.connent_left{
+    width: 30%;
+    min-width: 173.25px;
+    margin-top:30px;
+    float: left;
+}
+.connent_left1{
+    width: 95%;
+    margin-left: 5%;
+    height:100px;
+    font-size: 2em;
+    background:rgba(173, 247, 202, 0.74); 
+}
+.connent_left1 ul li{
+    list-style: none;
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+    line-height: 100px;
+}
+.connent_left1 ul li a{
+    color:#0B8158;
+    font-size: 1em;
+}
+.connent_left1 ul li a:hover{
+    text-decoration:underline;
+}
+.connent_left2{
+    width: 95%;
+    margin-top:15px;
+    margin-left: 5%;
+    height:150px;
+    font-size: 2em;
+    background:rgba(173, 247, 202, 0.74); 
+}
+.connent_left2_box{
+    width: 100%;
+    height:50px;
+    line-height: 50px;
+    font-size: 0.75em;
+    background:rgba(109, 240, 159, 0.74);
+}
+.connent_left2_box_1{
+    width: 100%;
+    height:50px;
+    line-height: 50px;
+    font-size:15px;
+    border-bottom:2px solid rgba(109, 240, 159, 0.74);
+}
+.connent_left2_box_noborder{
+    width: 100%;
+    height:50px;
+    line-height: 50px;
+    font-size: 0.75em;
+}
+.connent_left3{
+    width: 95%;
+    margin-top:15px;
+    margin-left: 5%;
+    font-size: 2em;
+    background:rgba(173, 247, 202, 0.74); 
+}
+.connent_left3 .fangke{
+    width: 100%;
+    line-height: 30px;
+    font-size: 0.75em;
+    background:rgba(109, 240, 159, 0.74);
+}
+.connent_left3 table{
+    width: 100%;
+    text-align:center;
+}
+.connent_left3 table tr td{
+    width: 33.33333%;
+}
+.connent_left3 table tr td img{
+    width: 100%;
+}
+
+.connent_right{
+    width:50%;
+    min-width: 346.5px;
+    margin-left: 10%;
+    margin-top:30px;
+    float: left; 
+
+}
+
+.connent_right1{
+    width: 100%;
+    padding:0 0 0 15%;
+}
+.connent_right1 img{
+    width: 70%;
+}
+
+.connent_right2{
+    margin-top:-80px;
+    width: 100%;
+    border: 10px solid white;
+    box-shadow:0px 4px 4px #239666;
+    background-color: rgba(232, 250, 245, 0.74);;
+}
+
+.connent_right2 .A1{
+    width:120px;
+    height:120px;
+    float:right;
+    border: 5px solid white;
+    background: url(../img/touxiang2.jpg) no-repeat center  center;
+    background-size: cover;
+    -moz-background-size: cover; 
+}
+.connent_right2 .A1:hover{
+    background: url(../img/touxiang1.jpg) no-repeat center center;
+    background-size: cover;
+    -moz-background-size: cover; 
+}
+.connent_right2_1{
+    margin-top: 30px;
+    margin-left:4%;
+    height:30px;
+    width:60%;
+    font-size: 1.5em;
+    float:left;
+}
+.connent_right2_2{
+    margin-top:20px;
+    font-size: 2em;
+    color:#0B8158;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+

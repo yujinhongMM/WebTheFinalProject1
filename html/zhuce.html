@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>注册</title>
+		<meta charset="utf-8">
+		<link href="../css/zhuce.css" rel='stylesheet' type='text/css' />
+		<script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="../js/zhuce.js"></script>
+	</head>
+<body>
+    
+	<div class="zhuce-form">
+    	<h1>注册</h1>
+        
+        <form name="zhuceform" method="POST" id="zhuceform">
+                <div class="item"><label>用户名：</label><input type="text" name="username" /></div>
+                <div class="item"><label>密码：</label><input type="password" name="pwd" /></div>
+                <div class="item"><label>确认：</label><input type="password" name="pwd1" /></div>
+                <div class="item"><label>电话：</label><input type="text" name="tel" /></div>
+                <div class="item">
+                    <label>性别：</label>
+                    <select name="sex">
+                        <option value="男孩">男孩</option>
+                        <option value="女孩" selected="selected">女孩</option>
+                        <option value="人妖">人妖</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <label>生日：</label>
+                    <select name="month">
+                        <option value="1">1月</option>
+                        <option value="2">2月</option>
+                        <option value="3">3月</option>
+                        <option value="4">4月</option>
+                        <option value="5">5月</option>
+                        <option value="6">6月</option>
+                        <option value="7" selected="selected">7月</option>
+                        <option value="8">8月</option>
+                        <option value="9">9月</option>
+                        <option value="10">10月</option>
+                    </select>
+                    <select name="day">
+                        <option value="1">1号</option>
+                        <option value="2">2号</option>
+                        <option value="3">3号</option>
+                        <option value="4">4号</option>
+                        <option value="5">5号</option>
+                        <option value="6" selected="selected">6号</option>
+                        <option value="7">7号</option>
+                        <option value="8">8号</option>
+                        <option value="9">9号</option>
+                        <option value="10">10号</option>
+                        <option value="11">11号</option>
+                        <option value="12">12号</option>
+                        <option value="13">13号</option>
+                        <option value="14">14号</option>
+                        <option value="15">15号</option>
+                        <option value="16">16号</option>
+                    </select>
+                    <select name="year">
+                        <option value="2000">2000年</option>
+                        <option value="2001">2001年</option>
+                        <option value="2002">2002年</option>
+                        <option value="2003">2003年</option>
+                        <option value="2004">2004年</option>
+                        <option value="2005">2005年</option>
+                        <option value="2006">2006年</option>
+                        <option value="2007">2007年</option>
+                        <option value="2008">2008年</option>
+                        <option value="2009">2009年</option>
+                        <option value="2010" selected="selected">2010年</option>
+                        <option value="2011">2011年</option>
+                        <option value="2012">2012年</option>
+                        <option value="2013">2013年</option>
+                    </select>
+                </div>
+                <div class="item"><label></label><input type="button" value="立即注册" onClick="zhuce(this.form)"/></div>
+                <div class="clear"></div>
+        </form>
+	</div>
+</body>
+</html>

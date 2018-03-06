@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+		<meta charset="utf-8">
+		<link href="css/index.css" rel='stylesheet' type='text/css' />
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+
+	</head>
+<body>
+	<div class="login-form">
+    	<h1>Login</h1>
+        <div class="head">
+			<img src="img/user.png" alt=""/>
+		</div>
+        <form name="loginform" method="POST" id="loginform" action="">
+		<input autocomplete="off" type="text" name="username" placeholder="用户名" data-rule="empty" data-name="账号"/>
+		<div class="zhuce"><a href="html/zhuce.html">立即注册</a></div>
+		<input autocomplete="off" type="password" name="password" placeholder="密码" data-rule="empty" data-name="密码"/>
+		<div class="wangjimima"><a href="html/zhaohuimima.html">忘记密码</a></div>
+        <input type="button" class="submit-btn" id="J_submit" value="登 录" onClick="login(this.form)">
+        </form>         
+	</div>
+
+	<p style="color:white;font-size:20px;text-align:center;margin-top:20px;">请用<b style="color:black;">谷歌浏览器</b>打开，这是无后台版本的,有后台的请看另一个文件 &copy;余金鸿</p>
+</body>
+</html>

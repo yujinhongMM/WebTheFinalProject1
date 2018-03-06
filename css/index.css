@@ -1,0 +1,126 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{ width: 100%;
+      min-width:1000px;
+     height:auto;font-size:62.5%; 
+    font-family:cursive,"寰蒋闆呴粦","Microsoft YaHei", Heiti, Arial,Helvetica, Tahoma,STXihei, "榛戜綋",   SimSun, "瀹嬩綋", sans-serif; 
+    width: 100%; 
+	background:rgb(117,157,123);
+    height:auto;
+}
+textarea { resize: none; }
+a, button, input, select, textarea { outline: 0; }
+a, button,li{ cursor: pointer;}
+ul{
+    list-style: none;
+}
+a { 
+    font-size:1.6em;
+    color: #272425;
+    text-decoration: none;
+    display: block;
+}
+button { border: none;}
+
+.clear{clear:both;
+        height:聽0;
+        line-height:聽0;
+        font-size:聽0;
+}
+
+.login-form{
+	position: relative;
+	width: 400px;
+	height:auto;
+	background:#eee;
+	margin:120px auto 0px auto;
+	border-radius: 6px;
+	padding: 20px;
+}
+.head {
+	position: absolute;
+	top:-75px;
+	left: 140px;
+}
+.head img {
+	width:150px;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-o-border-radius:50%;
+	-moz-border-radius:50%;
+	border:5px solid rgba(221, 218, 215, 0.23);
+}
+h1{
+	margin-top:70px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	color: rgb(117,157,123);
+	height:33px;
+}
+form {
+	width:400px;
+}
+form a:hover {
+	color:#21A957;
+}
+input[type="text"], input[type="password"]{
+	text-align:left;
+	position: relative;
+	width:250px;
+	padding:12px;
+	background:#D3D3D3;
+	margin-left:25px;
+	margin-bottom: 24px;
+	font-family: 'Open Sans', sans-serif;
+	color: #676767;
+	font-weight:600;
+	font-size: 16px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	border:1px solid #DED6D6;
+}
+ input[type="text"]:hover, input[type="password"]:hover{
+ 	border:1px solid #949494;
+ }
+input[type="submit"],input[type="button"]{
+	width: 90%;
+	padding: 12px;
+	margin-left:5%; 
+	margin-bottom: 32px;
+	background: #2B9254;
+	font-family: 'Open Sans', sans-serif;
+	color: #ECECEC;
+	box-shadow: inset 0px 0px 10px #666464;
+	font-size: 20px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	font-weight:500;
+	border-radius: 5px;
+}
+input[type="submit"]:hover,input[type="button"]:hover{
+	background:#3AB168;
+	color:#fff;
+}
+.zhuce a{
+	position: absolute;
+	top:145px;
+	right:40px;
+	color:#21A957;
+}
+.zhuce a:hover{
+	text-decoration: underline;
+}
+.wangjimima a{
+	position: absolute;
+	top:215px;
+	right:40px;
+	color:#21A957;
+}
+.wangjimima a:hover{
+	text-decoration: underline;
+}

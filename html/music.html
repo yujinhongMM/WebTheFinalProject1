@@ -1,0 +1,163 @@
+<!DOCTYPE  HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/green.css">
+    <link rel="stylesheet" href="../css/music.css">
+    <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../js/gerenzhongxin.js"></script>
+  </head>
+  <body>
+    <div id="pagewrap">
+        <a name="top1"></a>
+        <div id="top">
+          <div class="top_m">
+            <!--导航栏-->
+              <ul>
+                  <li class="top_m_1 top_m_5">
+                      <a href="#">
+                            <img src="../img/gerenzhongxin.png"/>
+                            <div class="top_m_5_DIV">个人中心</div>
+                            <div class="clear"></div>
+                      </a>
+                  </li>
+                  <li class="top_m_4">
+                      <a href="youxi.html">
+                        <img src="../img/youxi.png"/>
+                        <div class="top_m_4_DIV">游戏</div>
+                        <div class="clear"></div>
+                     </a>
+                    </li>
+                  <li class="top_m_3">
+                      <a href="shop.html">
+                      <img src="../img/gouwuce.png"/>
+                      <div class="top_m_3_DIV">购物</div>
+                      <div class="clear"></div>
+                      </a>
+                  </li>
+                  <!-- <li class="top_m_2">
+                      <a href="#">
+                      <img src="../img/mmm.png"/>
+                      <div class="top_m_2_DIV">3</div>
+                      <div class="clear"></div>
+                      </a>
+                </li> -->
+                  <li class="top_m_6">
+                    <a href="wodekongjian.html">
+                        <img src="../img/kongjian.png"/>
+                        <div class="top_m_6_DIV">我的空间</div>
+                        <div class="clear"></div>
+                    </a>
+                  </li>
+              </ul>
+              <input type="file" id="btn_file" style="display:none;" onchange="showPicture(this)"/>
+              <div class="top_m_i_th_m">
+                  <div id="top_m_i_th">
+                        <div id="top_m_i_h">hello，下午好</div>
+                        <a href="../index.html" title="退出登录"><img src="../img/tuichu.png"/></a>
+                        <div class="clear"></div>
+                        <div id="top_m_i_t">2017年11月8日&nbsp;星期三&nbsp;08:08</div>
+                  </div>
+                  <a title="更换头像" onclick="F_Open_dialog()" class="top_m_i M_M"></a>
+              </div>
+              <div class="clear"></div>
+          </div>
+        </div>
+        <div class="explain">
+          
+        </div>
+        <div class="main">
+          <!--左边区域-->
+            <img src="../img/aixin.png" class="touxiangbiejin"/>
+            <div id="FixLeft">
+                <a class="touxiang M_M" title="更换头像" onclick="F_Open_dialog()"></a>
+                <div class="mingzi">YJH</div>
+                <div id="guanzhurenshu">关注人数： 0人</div>
+                <ul>
+                    <a href="gerenzhongxin.html"><li>★我的主页</li></a>
+                    <a href="#"><li class="Lihover">★我的音乐</li></a>
+                    <a href="myself.html"><li>★自我介绍</li></a>
+                    <a href="JSJJYJY.html"><li>★技术简介与总结建议</li></a>
+                </ul>
+            </div>
+            <!--中间区域-->
+            <div id="Middle">
+              <div id="m-player"><!--整个上面的播放器-->
+                <div class="m-cover"></div><!--歌曲图片所在-->
+                <div class="m-ctrl">
+
+                  <div class="m-tag"><!--右边的整段文字-->
+                    <strong>Title</strong><!--歌曲名-->
+                    <span class="m-artist">Artist</span><!--歌手-->
+                    <span class="m-album">Album</span><!--专辑-->
+                  </div>
+
+                  <div class="m-control">
+
+                    <div class="m-left">
+                        <div class="m-rewind m-icon" id="mlast"></div><!--上一首-->
+                        <div class="m-playback m-icon" id="mrun"></div><!--暂停-->
+                        <div class="m-fastforward m-icon" id="mnext"></div><!--下首-->
+                    </div>
+
+                    <div class="m-volume m-right"><!--声音-->
+                      <div class="m-mute m-icon m-left" id="m-slider2"></div><!--声音图标-->
+                      <div class="m-slider m-left" id="m-slider1"><!--音量调节的地方-->
+                        <div id="m-loaded0"></div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="m-progress">
+                    <div class="m-slider" id="m-slider0"><!--歌曲进程-->
+                      <div id="m-loaded"></div>
+                    </div>
+                    <div class="m-timer m-left" id="time0">00:00</div>
+                    <div class="m-right"><!--右侧图标-->
+                      <div class="m-shuffle m-icon" id="suijiShunxuDanqu"></div><!--播放模式-->
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <ul id="m-playlist"></ul><!--歌曲列表-->
+              <audio id="audio"></audio>
+             
+              
+
+
+
+            </div>
+              
+        
+           
+            <!--右边区域-->
+            <div id="Right">
+              <div id="Right1">
+                <div id="Right1_1">
+                  星期三<p>11.26</p>
+                </div>
+                <div id="Right1_2" onclick="qiandao()">签到</div>
+                <div class="clear"></div>
+              </div>
+              <ul id="Right2">大家都在看
+                <a href="https://fm.qq.com/show/rd000UxN4T3We401?referer=hot_topic"><li>★【金马魔咒】得奖冷门+歌手车祸现场</li></a>
+                <a href="https://buluo.qq.com/p/detail.html?bid=294797&pid=8386231-1511905802"><li>★有儿子的叫儿子瞧瞧,没儿子的就让女儿瞧瞧!</li></a>
+                <a href="https://buluo.qq.com/p/detail.html?bid=230054&pid=9166120-1511903521"><li>★实拍：95后小伙用6000元创业成功，只是为了不给别人打工，有理想！</li></a>
+                <a href="https://buluo.qq.com/p/detail.html?bid=10600&pid=7392776-1511905265"><li>★天王黎明《今夜你会不会来》及携手魏晨演唱《心在跳》全场观众沸腾！</li></a>
+                <a href="https://user.qzone.qq.com/3359056662/mood/162337c84517115a6fba0600.1?referer=hot_topic"><li>★从西雅图见到波叔后，就彻底这个成熟，自信、霸气...</li></a>
+              </ul>
+            </div>
+        </div>
+        
+       
+                
+
+
+  
+    </div>
+  </body>
+  <script type="text/javascript" src="../js/music.js"></script>
+</html>

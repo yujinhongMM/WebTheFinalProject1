@@ -1,0 +1,29 @@
+#Middle{
+    width: 45%;
+    min-width: 450px;
+    padding:25px 2.5%;
+    margin:0px 25%;
+    background: white;
+    height:auto;
+    border-radius:6px;
+    border:1px solid rgb(108, 148, 114);
+    position: relative;
+}
+
+table{
+    width:100%;
+    text-align: center;
+    border:1px solid rgb(108, 148, 114);
+    font-size: 1.6em;
+}
+table tr td{
+    width:50%;
+}
+#TD1{
+    width:50%;
+   border-bottom:1px solid rgb(108, 148, 114)
+}
+#TD1 img{
+    width:60%;
+    margin: 10% 20%;
+}
